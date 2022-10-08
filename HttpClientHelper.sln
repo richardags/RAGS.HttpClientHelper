@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpClientHelper", "HttpClientHelper\HttpClientHelper.csproj", "{2EA3E0F4-1DE5-460E-B695-F9884DA8934A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Debug", "Debug\Debug.csproj", "{99431B22-99EE-4F1B-8A67-B5AB3B0CA11A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EA3E0F4-1DE5-460E-B695-F9884DA8934A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EA3E0F4-1DE5-460E-B695-F9884DA8934A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EA3E0F4-1DE5-460E-B695-F9884DA8934A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EA3E0F4-1DE5-460E-B695-F9884DA8934A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99431B22-99EE-4F1B-8A67-B5AB3B0CA11A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99431B22-99EE-4F1B-8A67-B5AB3B0CA11A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99431B22-99EE-4F1B-8A67-B5AB3B0CA11A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99431B22-99EE-4F1B-8A67-B5AB3B0CA11A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3DE8C0C-D7FC-4B42-A2A5-6DE37EB207E6}
+	EndGlobalSection
+EndGlobal
