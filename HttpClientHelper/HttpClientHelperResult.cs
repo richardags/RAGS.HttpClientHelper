@@ -15,6 +15,7 @@ namespace RAGS.HttpClientHelper
         {
             this.data = data;
             this.httpStatusCode = httpStatusCode;
+            this.headers = headers;
         }
         public HttpClientHelperResult(Exception error)
         {
