@@ -1,4 +1,4 @@
-﻿namespace HttpClientHelper
+﻿namespace RAGS.HttpClientHelper
 {
     public static class ContentTypeExtensions
     {

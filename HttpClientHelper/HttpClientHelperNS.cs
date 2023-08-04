@@ -7,7 +7,7 @@ using System.Security.Authentication;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
-namespace HttpClientHelper
+namespace RAGS.HttpClientHelper
 {
     public class HttpClientHelperNS
     {
@@ -101,9 +101,9 @@ namespace HttpClientHelper
                         //return new WebRequestHelperResult(data: data, httpStatusCode: HttpStatusCode.ExpectationFailed);
                     }
 
-                    string data = ReadStream(httpResponseMessage, responseEncoding);
+                    string data = ReadStream(httpResponseMessage, responseEncoding);                    
 
-                    return new HttpClientHelperResult(data: data, httpStatusCode: httpResponseMessage.StatusCode);
+                    return new HttpClientHelperResult(data, httpResponseMessage.StatusCode, httpResponseMessage.Headers);
                 }
             }
             /*
